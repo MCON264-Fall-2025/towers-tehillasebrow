@@ -13,7 +13,7 @@ Each part reinforces a key concept of recursion — base case, recursive case, a
 ### 1. Base Case
 _Describe the base condition that stops recursion (for example, what happens when `n == 0`?)._
 
-> the base case n==1 moves the disk directly from from to to.
+> The base case is when n == 0, at which point the recursion returns without doing anything. When n == 1, the recursion performs one move from "from" to "to".
 
 ### 2. Recursive Case
 _Explain the sequence of recursive calls and what each represents._
