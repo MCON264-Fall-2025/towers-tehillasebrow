@@ -52,11 +52,16 @@ public class TowersExercise21 {
      */
     public static void solve(int n, char from, char aux, char to) {
         // TODO 1: Base case — if n == 0 → return.
+            if(n==0)
+                return;
 
         // TODO 2: Recursive case —
-        //   a) solve(n-1, from, to, aux)
+           solve(n-1, from, to, aux);
+           count++;
+
         //   b) increment count for moving disk n
-        //   c) solve(n-1, aux, from, to)
+
+         solve(n-1, aux, from, to);
     }
 
     public static void main(String[] args) {
