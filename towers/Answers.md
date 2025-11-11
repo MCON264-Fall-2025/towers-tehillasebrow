@@ -80,7 +80,7 @@ _Every move must pass through the middle peg. How does this alter the recursion?
 ### 3. Analysis
 _Why does this variation grow faster than the standard version? How do additional move constraints affect complexity?_
 
-> ✎it moves 3^n-1 vs. 2^n-1 so its grows faster. its 0(3^n) time.
+> ✎it moves 3^n-1 vs. 2^n-1 so it's grows faster. it's 0(3^n) time.
 
 ---
 
